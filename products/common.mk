@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
     AndroidTerm \
     FileManager \
     CMParts \
-    CMStats \
+    #CMStats \
     CMUpdateNotify \
     DSPManager \
     libcyanogen-dsp \
