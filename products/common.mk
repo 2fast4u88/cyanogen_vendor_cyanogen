@@ -5,9 +5,11 @@ PRODUCT_DEVICE := generic
 
 PRODUCT_PACKAGES += ADWLauncher
 
+$(call inherit-product, vendor/google/gapps.mk)
+
 ifdef CYANOGEN_NIGHTLY
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rommanager.developerid=cyanogenmodnightly
+    ro.rommanager.developerid=2fastromsnightly
 else
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=2fastroms
